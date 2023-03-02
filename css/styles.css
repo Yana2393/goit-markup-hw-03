@@ -1,0 +1,133 @@
+
+:root {
+    --main-text-color:#2E2F42;
+    --secondary-text-color: #E7E9FC;
+    --accent-text-color: #4D5AE5;
+    --hero-text-color: #FFFFFF;
+    --main-font: 'Roboto', sans-serif;
+    --accent-font: 'Raleway', sans-serif;
+}
+body {
+    font-family: var(--main-font);
+    color: var(--main-text-color);
+}
+.main-logo {
+    font-family: var(--accent-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+.main-logo span {
+    color: var(--accent-text-color);
+}
+.list {
+    list-style: none;
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: var(--accent-text-color);
+}
+.nav-link:focus {
+    color: var(--accent-text-color);
+}
+.site-adress {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.link-adress{
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--main-text-color);
+        text-decoration: none;
+}
+.link-adress:hover {
+    color: var(--accent-text-color);
+}
+
+.link-adress:focus {
+    color: var(--accent-text-color);
+}
+.filter-list {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--accent-text-color);
+    background-color: var(--secondary-text-color);
+}   
+.filter-list:hover {
+    background-color: var(--accent-text-color);
+    color: var(--secondary-text-color);
+}
+.filter-list:focus {
+    background-color: var(--accent-text-color);
+    color: var(--secondary-text-color);
+}
+.card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+.footer-info {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+.main-inscription {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--hero-text-color);
+}
+.order-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--hero-text-color);
+    background-color: var(--accent-text-color);
+}
+.subtitle {
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+}
+.main-logo-footer {
+    font-family: var(--accent-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+.main-logo-footer span {
+    color: var(--accent-text-color);
+}
+.hero {
+    background-color: var(--main-text-color);
+}
+.footer {
+    background-color: var(--main-text-color);
+}
