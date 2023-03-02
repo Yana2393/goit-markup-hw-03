@@ -13,29 +13,31 @@
 </head>
 <body>
     <!-- Page header -->
-    <header>
+    <header class="page-header">
         
     <!-- Navigation -->
-    
-        <nav>
-            <a class="main-logo" href="./index.html"><span>Web</span>Studio</a>
-            <ul class="site-nav">
-                <li class="list"><a class="nav-link" href="./index.html">Studio</a></li>
-                <li class="list"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
-                <li class="list"><a class="nav-link" href="">Contacts</a></li>
-            </ul>
-        </nav>
-    <!-- Contacts -->
-        <address>
-            <ul class="site-adress">
-                <li class="list">
-                    <a class="nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="list">
-                    <a class="nav-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                </li>
-            </ul>
-        </address>
+        <div class="container page-header-container">
+            <nav class="page-nav">
+                <a class="main-logo" href="./index.html"><span>Web</span>Studio</a>
+                <ul class="site-nav">
+                    <li class="list nav-item"><a class="nav-link" href="./index.html">Studio</a></li>
+                    <li class="list nav-item"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="list nav-item"><a class="nav-link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+            <!-- Contacts -->
+            <address class="site-adress">
+                <ul class="site-adress-list">
+                    <li class="list">
+                        <a class="nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="list">
+                        <a class="nav-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+        
     </header>
     <!-- Main information -->
     <main>
@@ -43,9 +45,9 @@
             <h1 class="main-inscription">Effective Solutions for Your Business</h1>
             <button class="order-btn" type="button">Order Service</button>
         </section>
-        <section>
+        <section class="container">
             <h2></h2>
-            <ul>
+            <ul class="features">
                 <li class="list">
                     <h3 class="card-title">Strategy</h3>
                     <p class="card-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
@@ -66,9 +68,9 @@
         </section>
 
     <!-- Images -->
-        <section>
+        <section class="container">
             <h2 class="subtitle">What are we doing</h2>
-            <ul>
+            <ul class="subtitle-img">
                 <li class="list">
                     <img src="./images/Monitor.jpg" alt="Monitor" width="360">
                 </li>
@@ -81,36 +83,43 @@
             </ul>
         </section>
     <!-- Team photo -->
-        <section>
-            <h2 class="subtitle">Our Team</h2>
-            <ul>
-                <li class="list">
-                    <img src="./images/Mark.jpg" alt="Mark" width="264">
-                    <h3 class="card-title">Mark Guerrero</h3>
-                    <p class="card-text">Product Designer</p>
-                </li>
-                <li class="list">
-                    <img src="./images/Tom.jpg" alt="Tom" width="264">
-                    <h3 class="card-title">Tom Ford</h3>
-                    <p class="card-text">Frontend Developer</p>
-                </li>
-                <li class="list">
-                    <img src="./images/Camilla.jpg" alt="Camilla" width="264">
-                    <h3 class="card-title">Camila Garcia</h3>
-                    <p class="card-text">Marketing</p>
-                </li>
-                <li class="list">
-                    <img src="./images/Daniel.jpg" alt="Daniel" width="264">
-                    <h3 class="card-title">Daniel Wilson</h3>
-                    <p class="card-text">UI Designer</p>
-                </li>
-            </ul>
+        <section class="team-section">
+           <div class="container">
+                <h2 class="subtitle-team">Our Team</h2>
+                <ul class="team-img">
+                    <li class="list team-card">
+                        <img src="./images/Mark.jpg" alt="Mark" width="264">
+                        <h3 class="card-title">Mark Guerrero</h3>
+                        <p class="card-text">Product Designer</p>
+                    </li>
+                    <li class="list team-card">
+                        <img src="./images/Tom.jpg" alt="Tom" width="264">
+                        <h3 class="card-title">Tom Ford</h3>
+                        <p class="card-text">Frontend Developer</p>
+                    </li>
+                    <li class="list team-card">
+                        <img src="./images/Camilla.jpg" alt="Camilla" width="264">
+                        <h3 class="card-title">Camila Garcia</h3>
+                        <p class="card-text">Marketing</p>
+                    </li>
+                    <li class="list team-card">
+                        <img src="./images/Daniel.jpg" alt="Daniel" width="264">
+                        <h3 class="card-title">Daniel Wilson</h3>
+                        <p class="card-text">UI Designer</p>
+                    </li>
+                </ul>
+           </div> 
+
         </section>
     </main>
     <!-- Page footer -->
     <footer class="footer">
-        <a class="main-logo-footer" href="./index.html"><span>Web</span>Studio</a>
-        <p class="footer-info">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        <div class="container">
+            <a class="main-logo-footer" href="./index.html"><span>Web</span>Studio</a>
+            <p class="footer-info">Increase the flow of customers and sales for your business with digital marketing & growth
+    solutions.</p>
+        </div>
+        
     </footer>
 
 </body>
