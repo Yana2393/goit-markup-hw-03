@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -31,10 +32,10 @@
             <adress class="site-adress">
                 <ul class="site-adress-list">
                     <li class="list">
-                        <a class="nav-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="nav-link link-adress" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                     <li class="list">
-                        <a class="nav-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        <a class="nav-link link-adress" href="tel:+110001111111">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
             </adress>
@@ -44,71 +45,73 @@
 
     <main>
         <!--Filters-->
-        <section class="portfolio container" aria-label="Portfolio">
-            <ul class="portfolio-list">
-                <li class="list portfolio-item">
-                    <button class="filter-list" type="button">All</button>
-                </li>
-                <li class="list portfolio-item">
-                    <button class="filter-list" type="button">Web Site</button>
-                </li>
-                <li class="list portfolio-item">
-                    <button class="filter-list" type="button">App</button>
-                </li>
-                <li class="list portfolio-item">
-                    <button class="filter-list" type="button">Design</button>
-                </li>
-                <li class="list portfolio-item">
-                    <button class="filter-list" type="button">Marketing</button>
-                </li>
-            </ul>
+        <section class="portfolio-section" aria-label="Portfolio">
+            <div class="container">
+                <ul class="portfolio-list">
+                    <li class="list portfolio-item">
+                        <button class="filter-list" type="button">All</button>
+                    </li>
+                    <li class="list portfolio-item">
+                        <button class="filter-list" type="button">Web Site</button>
+                    </li>
+                    <li class="list portfolio-item">
+                        <button class="filter-list" type="button">App</button>
+                    </li>
+                    <li class="list portfolio-item">
+                        <button class="filter-list" type="button">Design</button>
+                    </li>
+                    <li class="list portfolio-item">
+                        <button class="filter-list" type="button">Marketing</button>
+                    </li>
+                </ul>
+            </div>
         <!--Section wiht pictures-->
             <div class="container">
                 <ul class="team-img">
                     <li class="list portfolio-card">
                         <img src="./images/hw-02/Banking.jpg" alt="Banking" width="360">
-                        <h2 class="portfolio-title">Banking App Interface Concept</h2>
-                        <p class="portfolio-text">App</p>
+                        <div class="portfolio-text-style"><h2 class="portfolio-title">Banking App Interface Concept</h2>
+                        <p class="portfolio-text">App</p></div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="./images/hw-02/Payment.jpg" alt="Payment" width="360">
-                        <h2 class="portfolio-title">Cashless Payment</h2>
-                        <p class="portfolio-text">Marketing</p>
+                        <div class="portfolio-text-style"><h2 class="portfolio-title">Cashless Payment</h2>
+                        <p class="portfolio-text">Marketing</p></div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="./images/hw-02/Meditaion.jpg" alt="Meditaion" width="360">
-                        <h2 class="portfolio-title">Meditaion App</h2>
-                        <p class="portfolio-text">App</p>
+                        <div class="portfolio-text-style"><h2 class="portfolio-title">Meditaion App</h2>
+                        <p class="portfolio-text">App</p></div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="./images/hw-02/Taxi.jpg" alt="Taxi" width="360">
-                        <h2 class="portfolio-title">Taxi Service</h2>
-                        <p class="portfolio-text">Marketing</p>
+                        <div class="portfolio-text-style"><h2 class="portfolio-title">Taxi Service</h2>
+                        <p class="portfolio-text">Marketing</p></div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="./images/hw-02/Screen.jpg" alt="Screen" width="360">
-                        <h2 class="portfolio-title">Screen Illustrations</h2>
-                        <p class="portfolio-text">Design</p>
+                        <div class="portfolio-text-style"><h2 class="portfolio-title">Screen Illustrations</h2>
+                        <p class="portfolio-text">Design</p></div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="./images/hw-02/Online.jpg" alt="Online" width="360">
-                        <h2 class="portfolio-title">Online Courses</h2>
-                        <p class="portfolio-text">Marketing</p>
+                        <div class="portfolio-text-style"><h2 class="portfolio-title">Online Courses</h2>
+                        <p class="portfolio-text">Marketing</p></div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="./images/hw-02/Instagram.jpg" alt="Instagram" width="360">
-                        <h2 class="portfolio-title">Instagram Stories Concept</h2>
-                        <p class="portfolio-text">Design</p>
+                        <div class="portfolio-text-style"><h2 class="portfolio-title">Instagram Stories Concept</h2>
+                        <p class="portfolio-text">Design</p></div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="./images/hw-02/Organic.jpg" alt="Organic" width="360">
-                        <h2 class="portfolio-title">Organic Food</h2>
-                        <p class="portfolio-text">Web Site</p>
+                        <div class="portfolio-text-style"><h2 class="portfolio-title">Organic Food</h2>
+                        <p class="portfolio-text">Web Site</p></div>
                     </li>
                     <li class="list portfolio-card">
                         <img src="./images/hw-02/Coffee.jpg" alt="Coffee" width="360">
-                        <h2 class="portfolio-title">Fresh Coffee</h2>
-                        <p class="portfolio-text">Web Site</p>
+                        <div class="portfolio-text-style"><h2 class="portfolio-title">Fresh Coffee</h2>
+                        <p class="portfolio-text">Web Site</p></div>
                     </li>
                 </ul>
              </div>
